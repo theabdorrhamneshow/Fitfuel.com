@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FitFuel</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      background: #f7f7f7;
-    }
-    header {
-      background: #c14444;
-      padding: 2rem;
-      color: white;
-    }
-    h1 { margin: 0; }
-    .container { padding: 2rem; }
-    .btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 1rem 2rem;
-      background: #481d1d;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-    .btn:hover { background: #6a2e2e; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>🔥 FitFuel 🔥</h1>
-    <p>Your FREE Fitness & Meal Planner</p>
-  </header>
-
-  <div class="container">
-    <h2>Stay Motivated. Eat Healthy. Crush Workouts.</h2>
-    <p>FitFuel gives you custom workouts, meal plans, water tracking, streaks & motivation.</p>
-    <a class="btn" href="#">Download APK</a>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="FitFuel" />
+    <meta property="og:description" content="Your personal fitness and meal planner - Build healthy habits, track progress, and fuel your fitness journey" />
+    <meta
+      property="og:image"
+      content="https://mocha-cdn.com/og.png"
+      type="image/png"
+    />
+    <meta
+      property="og:url"
+      content="https://getmocha.com"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:author" content="Mocha" />
+    <meta property="og:site_name" content="Mocha" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@get_mocha" />
+    <meta property="twitter:title" content="FitFuel" />
+    <meta property="twitter:description" content="Your personal fitness and meal planner - Build healthy habits, track progress, and fuel your fitness journey" />
+    <meta
+      property="twitter:image"
+      content="https://mocha-cdn.com/og.png"
+      type="image/png"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://mocha-cdn.com/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://mocha-cdn.com/apple-touch-icon.png"
+      type="image/png"
+    />
+    <title>FitFuel</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/react-app/main.tsx"></script>
+  </body>
 </html>
